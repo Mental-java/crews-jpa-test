@@ -9,6 +9,7 @@ public class CrewsJpaTestApplication {
     public static void main(String[] args) {
         SpringApplication.run(CrewsJpaTestApplication.class, args);
     }
+    // branch test dongyoung
 
 }
 //확인용 푸시
