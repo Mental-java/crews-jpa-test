@@ -15,8 +15,8 @@ public class Crew {
     @Column(name = "CREW_NAME")
     private String crewName;
 
-//    @Column(name = "CAPTAIN")
-//    private User captain;
+    @Column(name = "CAPTAIN")
+    private User captain;
 
     @Column(name = "INTRODUCTION")
     private String introduction;
