@@ -9,5 +9,6 @@ public class CrewsJpaTestApplication {
     public static void main(String[] args) {
         SpringApplication.run(CrewsJpaTestApplication.class, args);
     }
+    // branch test dongyoung
 
 }
