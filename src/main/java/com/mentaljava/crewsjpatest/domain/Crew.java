@@ -10,7 +10,7 @@ public class Crew {
 
     @Id @GeneratedValue
     @Column(name = "CREW_ID")
-    private Long crewId;
+    private int crewId;
 
     @Column(name = "CREW_NAME")
     private String crewName;
@@ -24,7 +24,6 @@ public class Crew {
 
     @ManyToOne
     @JoinColumn(name = "CATEGORY_CODE")
-    @Column(name = "CREW_CATEGORYCODE")
     private CrewCategory crewCategoryCode;
 
     @Column(name = "START_DATE")
@@ -43,6 +42,6 @@ public class Crew {
     private String recruitmentStatus;
 
     @Column(name = "CREATION_DATE")
-    private java.sql.Date creationDate;
+    private Date creationDate;
 
 }

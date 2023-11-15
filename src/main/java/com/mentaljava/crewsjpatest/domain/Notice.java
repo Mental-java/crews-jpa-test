@@ -26,7 +26,6 @@ public class Notice {
 
     @ManyToOne
     @JoinColumn(name = "ADMIN_ID")
-    @Column(name = "ADMIN_ID")
     private Admin adminId;
 
 }

@@ -17,7 +17,7 @@ public class CrewController {
     @GetMapping("/crew")
     public String crewList(Model model){
         List<Crew> crews = crewService.findCrew();
-        model.addAttribute("crewForm", new Crew());
+        model.addAttribute("crews", crews);
         return "crew/crewList";
     }
 
