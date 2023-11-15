@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <thead>
+    <tr>
+        <th>크루명</th>
+        <th>캡틴</th>
+        <th>카테고리코드</th>
+        <th>시작일</th>
+        <th>종료일</th>
+        <th>모집상테</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="crew : ${crews}">
+        <td th:text="${crew.crewId}"></td>
+        <td th:text="${crew.crewId}"></td>
+    </tr>
+    </tbody>
+</div>
+</body>
+</html>
