@@ -24,7 +24,6 @@ public class Crew {
 
     @ManyToOne
     @JoinColumn(name = "CATEGORY_CODE")
-    @Column(name = "CREW_CATEGORYCODE")
     private CrewCategory crewCategoryCode;
 
     @Column(name = "START_DATE")
