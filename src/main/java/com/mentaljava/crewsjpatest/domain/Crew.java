@@ -15,7 +15,8 @@ public class Crew {
     @Column(name = "CREW_NAME")
     private String crewName;
 
-    @Column(name = "CAPTAIN")
+    @ManyToOne
+    @JoinColumn(name = "USER_ID")
     private User captain;
 
     @Column(name = "INTRODUCTION")
