@@ -10,7 +10,7 @@ import javax.persistence.Table;
 @Data
 @Entity
 @Table(name="admin")
-public class admin {
+public class Admin {
 
     @Id
     @Column(name="ADMIN_ID")
