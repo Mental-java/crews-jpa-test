@@ -6,7 +6,7 @@ import java.util.Date;
 
 
 @Entity
-@Table(name="USER_CALENDER")
+@Table(name="USER_CALENDAR")
 public class UserCalendar {
 
     @Id
