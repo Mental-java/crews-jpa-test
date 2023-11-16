@@ -5,9 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-    <<table border="1">
-        <tr>
-            <td th:text="${ userCalendar.userCalendarId}"></td>
+    <table>
+        <tr th:each="calendar : ${userCalendar}">
+            <td th:text="${calendar.userCalendarId}"></td>
+            <td th:text="${calendar.title}"></td>
         </tr>
     </table>
 </body>
